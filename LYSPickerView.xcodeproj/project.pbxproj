@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48CA27221E9FA25800656BDA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CA27211E9FA25800656BDA /* main.m */; };
+		48CA27251E9FA25800656BDA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CA27241E9FA25800656BDA /* AppDelegate.m */; };
+		48CA27281E9FA25800656BDA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CA27271E9FA25800656BDA /* ViewController.m */; };
+		48CA272B1E9FA25800656BDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48CA27291E9FA25800656BDA /* Main.storyboard */; };
+		48CA272D1E9FA25800656BDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48CA272C1E9FA25800656BDA /* Assets.xcassets */; };
+		48CA27301E9FA25800656BDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48CA272E1E9FA25800656BDA /* LaunchScreen.storyboard */; };
+		48CA273A1E9FA27900656BDA /* LYSPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CA27391E9FA27900656BDA /* LYSPickerView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		48CA271D1E9FA25800656BDA /* LYSPickerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYSPickerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48CA27211E9FA25800656BDA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		48CA27231E9FA25800656BDA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		48CA27241E9FA25800656BDA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		48CA27261E9FA25800656BDA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		48CA27271E9FA25800656BDA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		48CA272A1E9FA25800656BDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		48CA272C1E9FA25800656BDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		48CA272F1E9FA25800656BDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		48CA27311E9FA25800656BDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48CA27381E9FA27900656BDA /* LYSPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYSPickerView.h; sourceTree = "<group>"; };
+		48CA27391E9FA27900656BDA /* LYSPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYSPickerView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48CA271A1E9FA25800656BDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48CA27141E9FA25800656BDA = {
+			isa = PBXGroup;
+			children = (
+				48CA271F1E9FA25800656BDA /* LYSPickerView */,
+				48CA271E1E9FA25800656BDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		48CA271E1E9FA25800656BDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48CA271D1E9FA25800656BDA /* LYSPickerView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48CA271F1E9FA25800656BDA /* LYSPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				48CA27371E9FA26F00656BDA /* LYSPickerView */,
+				48CA27231E9FA25800656BDA /* AppDelegate.h */,
+				48CA27241E9FA25800656BDA /* AppDelegate.m */,
+				48CA27261E9FA25800656BDA /* ViewController.h */,
+				48CA27271E9FA25800656BDA /* ViewController.m */,
+				48CA27291E9FA25800656BDA /* Main.storyboard */,
+				48CA272C1E9FA25800656BDA /* Assets.xcassets */,
+				48CA272E1E9FA25800656BDA /* LaunchScreen.storyboard */,
+				48CA27311E9FA25800656BDA /* Info.plist */,
+				48CA27201E9FA25800656BDA /* Supporting Files */,
+			);
+			path = LYSPickerView;
+			sourceTree = "<group>";
+		};
+		48CA27201E9FA25800656BDA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				48CA27211E9FA25800656BDA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		48CA27371E9FA26F00656BDA /* LYSPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				48CA27381E9FA27900656BDA /* LYSPickerView.h */,
+				48CA27391E9FA27900656BDA /* LYSPickerView.m */,
+			);
+			path = LYSPickerView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48CA271C1E9FA25800656BDA /* LYSPickerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48CA27341E9FA25800656BDA /* Build configuration list for PBXNativeTarget "LYSPickerView" */;
+			buildPhases = (
+				48CA27191E9FA25800656BDA /* Sources */,
+				48CA271A1E9FA25800656BDA /* Frameworks */,
+				48CA271B1E9FA25800656BDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LYSPickerView;
+			productName = LYSPickerView;
+			productReference = 48CA271D1E9FA25800656BDA /* LYSPickerView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48CA27151E9FA25800656BDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Goldcard;
+				TargetAttributes = {
+					48CA271C1E9FA25800656BDA = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4CX6972XTR;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 48CA27181E9FA25800656BDA /* Build configuration list for PBXProject "LYSPickerView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 48CA27141E9FA25800656BDA;
+			productRefGroup = 48CA271E1E9FA25800656BDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48CA271C1E9FA25800656BDA /* LYSPickerView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48CA271B1E9FA25800656BDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48CA27301E9FA25800656BDA /* LaunchScreen.storyboard in Resources */,
+				48CA272D1E9FA25800656BDA /* Assets.xcassets in Resources */,
+				48CA272B1E9FA25800656BDA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48CA27191E9FA25800656BDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48CA27281E9FA25800656BDA /* ViewController.m in Sources */,
+				48CA27251E9FA25800656BDA /* AppDelegate.m in Sources */,
+				48CA27221E9FA25800656BDA /* main.m in Sources */,
+				48CA273A1E9FA27900656BDA /* LYSPickerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		48CA27291E9FA25800656BDA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48CA272A1E9FA25800656BDA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		48CA272E1E9FA25800656BDA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48CA272F1E9FA25800656BDA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		48CA27321E9FA25800656BDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		48CA27331E9FA25800656BDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48CA27351E9FA25800656BDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4CX6972XTR;
+				INFOPLIST_FILE = LYSPickerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lys.test.LYSPickerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		48CA27361E9FA25800656BDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4CX6972XTR;
+				INFOPLIST_FILE = LYSPickerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lys.test.LYSPickerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48CA27181E9FA25800656BDA /* Build configuration list for PBXProject "LYSPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48CA27321E9FA25800656BDA /* Debug */,
+				48CA27331E9FA25800656BDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48CA27341E9FA25800656BDA /* Build configuration list for PBXNativeTarget "LYSPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48CA27351E9FA25800656BDA /* Debug */,
+				48CA27361E9FA25800656BDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48CA27151E9FA25800656BDA /* Project object */;
+}
